@@ -3,9 +3,9 @@ Messages:
   ✔ Message with time and status @done(19-05-03 18:16)
   ✔ Found message @done(19-05-03 18:19)
   ✔ Found of message @done(19-05-03 18:19)
-  ☐ Info message
-  ☐ Warning massage
-  ☐ Error message
+  ✔ Info message @done(19-05-03 18:43)
+  ✔ Warning massage @done(19-05-03 18:43)
+  ✔ Error message @done(19-05-03 18:43)
 Lists:
   ✔ Basic List @done(19-05-03 18:16)
   ✔ Ordered List @done(19-05-03 18:17)
