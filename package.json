@@ -2,7 +2,7 @@
   "name": "yacliui",
   "version": "0.1.0",
   "description": "Yet Another CLI UI Library",
-  "main": "lib/ui.js",
+  "main": "index.js",
   "directories": {
     "lib": "lib",
     "test": "test"
@@ -11,8 +11,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Mirko Schubert",
+  "repository": {
+    "type": "Github",
+    "url": "https://github.com/mirkoschubert/yacliui.git"
+  },
+  "license": "MIT",
   "devDependencies": {
     "eslint": "^5.16.0",
     "eslint-config-standard": "^12.0.0",
@@ -21,5 +25,10 @@
     "eslint-plugin-node": "^9.0.0",
     "eslint-plugin-promise": "^4.1.1",
     "eslint-plugin-standard": "^4.0.0"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.20.0",
+    "moment": "^2.24.0"
   }
 }
