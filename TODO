@@ -1,0 +1,22 @@
+Messages:
+  ✔ Headline @done(19-05-03 18:16)
+  ✔ Message with time and status @done(19-05-03 18:16)
+  ✔ Found message @done(19-05-03 18:19)
+  ✔ Found of message @done(19-05-03 18:19)
+  ☐ Info message
+  ☐ Warning massage
+  ☐ Error message
+Lists:
+  ✔ Basic List @done(19-05-03 18:16)
+  ✔ Ordered List @done(19-05-03 18:17)
+  ✔ Definition List @done(19-05-03 18:17)
+  ✔ Ordered Definition List @done(19-05-03 18:17)
+  ☐ Checklist?
+Prompt:
+  ☐ Ask a question with defaults
+  ☐ Ask a boolean question with defaults
+  ☐ Multiple choice question
+Tables:
+  ☐ Table with automatic word wrapping
+Misc:
+Bugs:
