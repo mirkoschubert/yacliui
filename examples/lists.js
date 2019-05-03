@@ -1,4 +1,4 @@
-const ui = require('../lib/ui')
+const ui = require('..')
 
 const listEntries = [
   'First Entry',

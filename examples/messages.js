@@ -1,8 +1,8 @@
-const ui = require('../lib/ui')
+const ui = require('..')
 
 ui.headline('Message Examples')
 
-ui.message('Basic Message')
+ui.message('\nBasic Message')
 ui.message('Message with a status string', '274ms')
 ui.message('Message with time', true)
 ui.message('Message with time and status string', '15ms', true)
