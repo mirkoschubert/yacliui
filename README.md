@@ -11,7 +11,7 @@
 
 <p align="center">
   <b>A clean UI library in node.js for the command line</b><br />
-  <sub><b>Note:</b>This is still work in progress. Please use it with care!</sub>
+  <sub><b>Note:</b> This is still work in progress. Please use it with care!</sub>
 </p>
 
 ---
