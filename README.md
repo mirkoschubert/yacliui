@@ -48,6 +48,8 @@ const ui = require('yacliui')
 * [Input](#input)
   * [ui.ask(question, initial)](#uiaskquestion-initial)
   * [ui.confirm(question, initial)](#uiconfirmquestion-initial)
+* [Digits](#digits)
+  * [ui.digits(number, opts)](#uidigitsnumber-opts)
 
 ## Messages
 
@@ -330,4 +332,59 @@ The default value of an answer the user can confirm with <kbd>enter</kbd>.
     console.log('You are ugly as hell!')
   }
 })()
+```
+
+## Digits
+
+> See the [Example Script](examples/digits.js) for more info.
+
+### ui.digits(number, opts)
+
+Type: `Function`
+
+Prints a huge 3x5 font for numbers like temperatue or time. Please note, that this function is still under development!
+
+#### number
+
+Type: `Number|String`
+
+The number to be displayed. Please note that by now only `Numbers` are fully functioning!
+
+#### opts.max_digits
+
+Type: `Number`
+Default: `4`
+
+The maximum of digits to be displayed.
+
+#### opts.max_decimals
+
+Type: `Number`
+Default: `2`
+
+The maximum of decimals to be displayed.
+
+#### opts.fixed
+
+Type: `Boolean`
+Default: `true`
+
+If this option is `true`, the number of displayed characters always stay the same. If a number isn't in range of `opts.max_digits` and `opts.max_decimals` the number will be rounded within their boundaries.
+
+If `opts.fixed` is `false`, only `opts.max_decimals` will be considered.
+
+#### opts.color
+
+Type: `String`
+Default: `green`
+
+This is the color the whole number will be displayed in. You can use any definition of the color library [chalk](https://www.npmjs.com/package/chalk), e.g. `blue.dim` or `white.bgRed`.
+
+#### Example
+
+```js
+ui.digits(12.479, {
+  max_decimals: 2,
+  color: 'blue.dim'
+})
 ```
